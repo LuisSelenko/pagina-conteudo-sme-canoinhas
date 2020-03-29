@@ -1,0 +1,12 @@
+.content button {
+  margin-top: 0;
+  width: 30%;
+}
+
+.content button:hover {
+  filter: brightness(90%);
+}
+
+.content button + button {
+  margin-top: 10px;
+}

@@ -14,7 +14,7 @@
 <body>
   <header>
     <div><img src="logo.jpg" alt="Logo Canoinhas" ></div>
-    <div><h1>Menu séries inicias do 1º ao 5º ano</h1></div>
+    <div><h1>Menu séries iniciais do 1º ao 5º ano</h1></div>
     <div id="content-back">
       <button id="button-back">
         <i class="fas fa-arrow-left"></i>

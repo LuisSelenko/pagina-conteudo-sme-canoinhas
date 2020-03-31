@@ -15,7 +15,10 @@
   <div class="container">
     <div class="content">
       <div id="text">
-        <div id="text-header"><img src="logo.jpg" alt="Logo Canoinhas" ><h1>PREZADOS FAMILIARES E ALUNOS</h1></div>
+        <div id="text-header">
+          <img src="logo.jpg" alt="Logo Canoinhas" ><h1>PREZADOS FAMILIARES E ALUNOS</h1>
+          <img src="cidade.png" alt="Logo Canoinhas" id="logo-direita">
+        </div>
         <p align="justify">O Governo do Município de Canoinhas suspendeu temporariamente as aulas na Rede Pública Municipal por meio do Decreto nº 058 de 17 de março de 2020, amparado nos Decretos do Governo Estadual nº 509, de 17 de março de 2020 e Decreto nº 525 de 25 de março de 2020, em virtude dos crescentes casos do Novo Coronavírus (COVID-19) no Brasil e procurando atender às medidas de prevenção e combate ao contágio para preservar a saúde.</p>
         <p align="justify">A secretaria Municipal de Educação de Canoinhas com o objetivo de fornecer alternativas de estudo para orientar os pais e atender os estudantes durante o período de distanciamento social, apresenta algumas propostas para complementar o ensino aprendizagem.</p>
         <p align="justify">É muito importante a participação dos pais e responsáveis nesse momento, fazendo atividades e auxiliando os filhos. Algumas dicas:</p>

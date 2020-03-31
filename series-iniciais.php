@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Website de conteúdos - Séries iniciais (1º ao 5º ano) - SME - Canoinhas - SC</title>
+  <title>Website de conteúdos - Anos Iniciais (1º ao 5º ano) - SME - Canoinhas - SC</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" 
     integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" 
     crossorigin="anonymous"
@@ -15,7 +15,7 @@
   <div class="container">
     <header>
       <div><img src="logo.jpg" alt="Logo Canoinhas" ></div>
-      <div><h1>Menu séries iniciais do 1º ao 5º ano</h1></div>
+      <div><h1>Anos Iniciais do 1º ao 5º ano</h1></div>
       <div id="content-back">
         <button id="button-back">
           <i class="fas fa-arrow-left"></i>

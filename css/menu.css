@@ -86,3 +86,9 @@
     order: 1;
   }
 }
+
+@media (max-width: 430px) {
+  .content section button#infantil {
+    line-height: 30px;
+  }
+}

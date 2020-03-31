@@ -16,8 +16,8 @@
     <div class="content">
       <section>
         <button type="button" id="infantil" class="button">Educação Infantil (Berçário, Maternal, Pré I e II)</button>
-        <button type="button" id="iniciais" class="button">Séries Iniciais (1º ao 5º ano)</button>
-        <button type="button" id="finais" class="button">Séries Finais (6º ao 9º ano)</button>
+        <button type="button" id="iniciais" class="button">Anos Iniciais (1º ao 5º ano)</button>
+        <button type="button" id="finais" class="button">Anos Finais (6º ao 9º ano)</button>
         <button type="button" id="back" class="button"><span><i class="fas fa-arrow-left"></i>Voltar</span></button>
       </section>
       <div id="logo">

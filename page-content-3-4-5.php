@@ -27,12 +27,12 @@
   </header>
   <div class="container">
     <div class="content">
-      <!-- Língua Portuguesa -->
+      <!-- Conteúdos -->
       <div class="card">
-        <div class="card-header"><h1>Língua Portuguesa</h1></div>
+        <div class="card-header"><h1>Conteúdos</h1></div>
         <div class="card-content">
           <?php
-            $path = "files/Iniciais/3 4 e 5 ano/Lingua Portuguesa/";
+            $path = "files/Iniciais/3 4 e 5 ano/Conteudos/";
 
             $retorno = mount($path);
 
@@ -46,12 +46,12 @@
         </div>
       </div>
 
-      <!-- Matemática -->
+      <!-- Leitura -->
       <div class="card">
-        <div class="card-header"><h1>Matemática</h1></div>
+        <div class="card-header"><h1>Para leitura</h1></div>
         <div class="card-content">
         <?php
-          $path = "files/Iniciais/3 4 e 5 ano/Matematica/";
+          $path = "files/Iniciais/3 4 e 5 ano/Leitura/";
 
           $retorno = mount($path);
 
@@ -63,121 +63,6 @@
 
           ?>
         </div>
-      </div>
-
-      <!-- História -->
-      <div class="card">
-        <div class="card-header"><h1>História</h1></div>
-        <div class="card-content">
-          <?php
-            $path = "files/Iniciais/3 4 e 5 ano/Historia/";
-
-            $retorno = mount($path);
-
-            if(is_array($retorno)){
-              foreach($retorno as $vl) {
-                echo $vl;
-              }
-            }
-
-          ?>
-        </div>
-      </div>
-
-       <!-- Geografia -->
-       <div class="card">
-        <div class="card-header"><h1>Geografia</h1></div>
-        <div class="card-content">
-          <?php
-            $path = "files/Iniciais/3 4 e 5 ano/Geografia/";
-
-            $retorno = mount($path);
-
-            if(is_array($retorno)){
-              foreach($retorno as $vl) {
-                echo $vl;
-              }
-            }
-
-          ?>
-        </div>
-      </div>
-
-       <!-- Ciências -->
-       <div class="card">
-        <div class="card-header"><h1>Ciências</h1></div>
-        <div class="card-content">
-          <?php
-            $path = "files/Iniciais/3 4 e 5 ano/Ciencias/";
-
-            $retorno = mount($path);
-
-            if(is_array($retorno)){
-              foreach($retorno as $vl) {
-                echo $vl;
-              }
-            }
-
-          ?>
-        </div>
-      </div>
-
-       <!-- Ensino Religioso -->
-       <div class="card">
-        <div class="card-header"><h1>Ensino Religioso</h1></div>
-        <div class="card-content">
-          <?php
-            $path = "files/Iniciais/3 4 e 5 ano/Ensino Religioso/";
-
-            $retorno = mount($path);
-
-            if(is_array($retorno)){
-              foreach($retorno as $vl) {
-                echo $vl;
-              }
-            }
-
-          ?>
-        </div>
-      </div>
-
-       <!-- Arte -->
-       <div class="card">
-        <div class="card-header"><h1>Arte</h1></div>
-        <div class="card-content">
-          <?php
-            $path = "files/Iniciais/3 4 e 5 ano/Arte/";
-
-            $retorno = mount($path);
-
-            if(is_array($retorno)){
-              foreach($retorno as $vl) {
-                echo $vl;
-              }
-            }
-
-          ?>
-        </div>
-      </div>
-
-       <!-- Educação Física -->
-       <div class="card">
-        <div class="card-header"><h1>Educação Física</h1></div>
-        <div class="card-content">
-          <?php
-            $path = "files/Iniciais/3 4 e 5 ano/Educacao Fisica/";
-
-            $retorno = mount($path);
-
-            if(is_array($retorno)){
-              foreach($retorno as $vl) {
-                echo $vl;
-              }
-            }
-
-          ?>
-        </div>
-      </div>
 
     </div>
   </div> 

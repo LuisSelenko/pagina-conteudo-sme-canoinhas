@@ -21,7 +21,8 @@
         <button type="button" id="back" class="button"><span><i class="fas fa-arrow-left"></i>Voltar</span></button>
       </section>
       <div id="logo">
-        <a href="index.php"><img src="logo.jpg" alt="Logo Canoinhas"></a>
+        <img src="logo.jpg" alt="Logo Canoinhas">
+        <img src="cidade.png" alt="Logo Canoinhas">
       </div>
     </div>
   </div>

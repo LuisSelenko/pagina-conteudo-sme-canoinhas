@@ -15,19 +15,20 @@
   <link rel="stylesheet" href="./css/page-content.css">
 </head>
 <body>
-  <header>
-    <div><img src="logo.jpg" alt="Logo Canoinhas" ></div>
-    <div><h1>Conteúdos Educação Infantil</h1></div>
-    <div id="content-back">
-      <button id="button-back">
-        <i class="fas fa-arrow-left"></i>
-        <span>Voltar</span>
-      </button>
-    </div>
-  </header>
   <div class="container">
+    <header>
+      <div><img src="logo.jpg" alt="Logo Canoinhas" ></div>
+      <div><h1>Conteúdos Educação Infantil</h1></div>
+      <div id="content-back">
+        <button id="button-back">
+          <i class="fas fa-arrow-left"></i>
+          <span>Voltar</span>
+        </button>
+      </div>
+    </header>
+
     <div class="content">
-    <div class="card">
+      <div class="card">
         <div class="card-header"><h1>Conteúdos</h1></div>
         <div class="card-content">
           <?php
@@ -40,13 +41,13 @@
                 echo $vl;
               }
             }
-
           ?>
         </div>
       </div>
     </div>
+    
   </div> 
   
-  <script src="./js/navigator-series-finais.js"></script>
+  <script src="./js/navigator-educacao-infantil.js"></script>
 </body>
 </html>

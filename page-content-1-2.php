@@ -6,7 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Website de conteúdos - Séries finais (6º ao 9º ano) - SME - Canoinhas - SC</title>
+  <title>Website de conteúdos - Séries iniciais (1º ao 5º ano) - SME - Canoinhas - SC</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" 
     integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" 
     crossorigin="anonymous"
@@ -18,7 +18,7 @@
   <div class="container">
     <header>
       <div><img src="logo.jpg" alt="Logo Canoinhas" ></div>
-      <div><h1>Menu séries finais do 6º ao 9º ano</h1></div>
+      <div><h1>Conteúdos do 1º e 2º ano</h1></div>
       <div id="content-back">
         <button id="button-back">
           <i class="fas fa-arrow-left"></i>
@@ -26,13 +26,14 @@
         </button>
       </div>
     </header>
+
     <div class="content">
       <!-- Língua Portuguesa -->
       <div class="card">
         <div class="card-header"><h1>Língua Portuguesa</h1></div>
         <div class="card-content">
           <?php
-            $path = "files/Finais/Lingua Portuguesa/";
+            $path = "files/Iniciais/1 e 2 ano/Lingua Portuguesa/";
 
             $retorno = mount($path);
 
@@ -51,7 +52,7 @@
         <div class="card-header"><h1>Matemática</h1></div>
         <div class="card-content">
         <?php
-          $path = "files/Finais/Matematica/";
+          $path = "files/Iniciais/1 e 2 ano/Matematica/";
 
           $retorno = mount($path);
 
@@ -70,7 +71,7 @@
         <div class="card-header"><h1>História</h1></div>
         <div class="card-content">
           <?php
-            $path = "files/Finais/Historia/";
+            $path = "files/Iniciais/1 e 2 ano/Historia/";
 
             $retorno = mount($path);
 
@@ -89,7 +90,7 @@
         <div class="card-header"><h1>Geografia</h1></div>
         <div class="card-content">
           <?php
-            $path = "files/Finais/Geografia/";
+            $path = "files/Iniciais/1 e 2 ano/Geografia/";
 
             $retorno = mount($path);
 
@@ -108,26 +109,7 @@
         <div class="card-header"><h1>Ciências</h1></div>
         <div class="card-content">
           <?php
-            $path = "files/Finais/Ciencias/";
-
-            $retorno = mount($path);
-
-            if(is_array($retorno)){
-              foreach($retorno as $vl) {
-                echo $vl;
-              }
-            }
-
-          ?>
-        </div>
-      </div>
-
-       <!-- Inglês -->
-       <div class="card">
-        <div class="card-header"><h1>Inglês</h1></div>
-        <div class="card-content">
-          <?php
-            $path = "files/Finais/Ciencias/";
+            $path = "files/Iniciais/1 e 2 ano/Ciencias/";
 
             $retorno = mount($path);
 
@@ -146,7 +128,7 @@
         <div class="card-header"><h1>Ensino Religioso</h1></div>
         <div class="card-content">
           <?php
-            $path = "files/Finais/Ensino Religioso/";
+            $path = "files/Iniciais/1 e 2 ano/Ensino Religioso/";
 
             $retorno = mount($path);
 
@@ -165,7 +147,7 @@
         <div class="card-header"><h1>Arte</h1></div>
         <div class="card-content">
           <?php
-            $path = "files/Finais/Arte/";
+            $path = "files/Iniciais/1 e 2 ano/Arte/";
 
             $retorno = mount($path);
 
@@ -184,7 +166,7 @@
         <div class="card-header"><h1>Educação Física</h1></div>
         <div class="card-content">
           <?php
-            $path = "files/Finais/Educacao Fisica/";
+            $path = "files/Iniciais/1 e 2 ano/Educacao Fisica/";
 
             $retorno = mount($path);
 
@@ -197,9 +179,9 @@
           ?>
         </div>
       </div>
+
     </div>
   </div> 
-  
-  <script src="./js/navigator-series-finais.js"></script>
+  <script src="./js/navigator-content-iniciais.js"></script> 
 </body>
 </html>

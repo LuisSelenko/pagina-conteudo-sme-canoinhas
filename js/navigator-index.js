@@ -1,15 +1,5 @@
-const iniciais = document.querySelector('#iniciais');
-const finais = document.querySelector('#finais');
-const infantil = document.querySelector('#infantil');
+const menu = document.querySelector('#button-menu');
 
-iniciais.onclick = () => {
-  window.location = 'series-iniciais.php';
-}
-
-finais.onclick = () => {
-  window.location = 'series-finais.php';
-}
-
-infantil.onclick = () => {
-  window.location = 'educacao-infantil.php';
+menu.onclick = () => {
+  window.location = 'menu.php';
 }

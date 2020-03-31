@@ -2,72 +2,81 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem 0;
+  height: 100vh;
+  padding: .80rem 0;
 }
 
 .content {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   width: 100%;
-  height: 90vh;
+  height: 100%;
+  padding: .80rem;
   max-width: 1120px;
   display: flex;
   background: rgb(255, 255, 255);
   border-radius: 18px;
 }
 
-.content #logo {
-  height: 100%;
-  width: 50%;
-  margin-right: 4rem;
-  max-width: 500px;
-  display: flex;
-  align-items: center;
+.content #text {
+  font-size: 18px;
 }
 
-.content #logo img {
+.content #text p {
+  text-indent: 2rem;
+  margin-bottom: 8px;
+  line-height: 22px;
+}
+
+.content #text #text-header {
+  display: flex;
   width: 100%;
-  box-shadow: 0 0 100px rgba(0,0,0,0.1);
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
 }
 
-.content section {
-  height: 100%;
-  width: 50%;
+.content #text #text-header img {
+  width: 100px;
+  height: 100px;
+}
+
+.content ul {
+  margin: 1rem 0;
+}
+
+.content ul #list-item {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: initial;
+  margin-bottom: 5px;
+}
+
+.content ul #list-item li{
+  list-style: none;
+  font-size: 18px;
+  line-height: 22px;
+  margin-left: .50rem;
+}
+
+.content ul #list-item i {
+  color: rgb(58, 91, 50);
+}
+
+.content #footer {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
   justify-content: center;
 }
 
-.content section button:hover {
-  filter: brightness(90%);
+.content #footer button {
+  margin: 0;
 }
 
-@media ( max-width: 580px) {
+.content #footer button span i {
+  font-size: 20px;
+}
 
-  .container {
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-  }
-
-  .content {
-    height: 100%;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .content #logo {
-    justify-content: center;
-    margin: 0;
-    order: 0;
-  }
-
-  .content section {
-    height: 50vh;
-    width: 100%;
-    order: 1;
-  }
+.content #footer button:hover {
+  filter: brightness(90%);
 }

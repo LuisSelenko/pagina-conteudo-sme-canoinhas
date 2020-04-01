@@ -25,6 +25,10 @@
   justify-content: center;
 }
 
+.content section button#infantil {
+  line-height: 30px;
+}
+
 .content section button span i {
   margin-right: 5px;
 }
@@ -84,11 +88,5 @@
   .content section {
     width: 100%;
     order: 1;
-  }
-}
-
-@media (max-width: 430px) {
-  .content section button#infantil {
-    line-height: 30px;
   }
 }

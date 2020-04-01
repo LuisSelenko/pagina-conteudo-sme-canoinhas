@@ -127,7 +127,7 @@
         <div class="card-header"><h1>Inglês</h1></div>
         <div class="card-content">
           <?php
-            $path = "files/Finais/Ciencias/";
+            $path = "files/Finais/Ingles/";
 
             $retorno = mount($path);
 
